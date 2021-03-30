@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Таймер</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1 class="title">До Дня Рождения осталось:</h1>
+
+    <div class="timer" id="timer-1">
+      <div class="field">
+        <span class="value" data-value="days"></span>
+        <span class="label">Days</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="hours"></span>
+        <span class="label">Hours</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="mins"></span>
+        <span class="label">Minutes</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="secs"></span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="timer-btn" data-action-start>Запустить</button>
+      <button class="timer-btn" data-action-stop>Остановить</button>
+    </div>
+    <script src="./js/timer.js" type="module"></script>
+  </body>
+</html>
